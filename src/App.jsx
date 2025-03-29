@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import { ParticlesDemo } from "./components/custom";
+import { DockDemo, ParticlesDemo } from "./components/custom";
 
 import {
   Header,
@@ -16,6 +16,7 @@ const App = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
       <ParticlesDemo />
+      <DockDemo />
 
       <div className="flex flex-col items-center justify-center p-2 w-full">
         <motion.div

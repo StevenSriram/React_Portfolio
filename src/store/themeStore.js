@@ -1,10 +1,10 @@
 import { create } from "zustand";
 
 const useThemeStore = create((set) => {
-  const savedTheme = localStorage.getItem("theme") || "LIGHT"; // Fallback to LIGHT theme if nothing is saved
+  const savedTheme = localStorage.getItem("portfolio-theme") || "light";
 
   // ! Initialize theme with saved value from localStorage
-  document.documentElement.classList.toggle("DARK", savedTheme === "DARK");
+  document.documentElement.classList.toggle("dark", savedTheme === "dark");
 
   return {
     theme: savedTheme,
@@ -12,8 +12,8 @@ const useThemeStore = create((set) => {
       set({ theme: newTheme });
 
       // ? Save Updated theme to localStorage
-      localStorage.setItem("theme", newTheme);
-      document.documentElement.classList.toggle("DARK", newTheme === "DARK");
+      localStorage.setItem("portfolio-theme", newTheme);
+      document.documentElement.classList.toggle("dark", newTheme === "dark");
     },
   };
 });

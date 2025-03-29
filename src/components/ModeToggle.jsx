@@ -7,7 +7,7 @@ const ModeToggle = () => {
   const { theme, setTheme } = useThemeStore();
 
   const toggleTheme = () => {
-    const newTheme = theme === "DARK" ? "LIGHT" : "DARK";
+    const newTheme = theme === "dark" ? "light" : "dark";
     setTheme(newTheme);
   };
 

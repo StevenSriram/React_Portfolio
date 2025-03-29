@@ -11,7 +11,7 @@ const ParticlesDemo = () => {
         className="absolute inset-0"
         quantity={100}
         ease={80}
-        color={theme === "DARK" ? "#fff" : "#000"}
+        color={theme === "dark" ? "#fff" : "#000"}
         refresh
       />
     </div>
