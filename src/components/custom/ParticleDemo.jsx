@@ -1,7 +1,9 @@
 import { Particles } from "@/components/magicui/particles";
 
+import useThemeStore from "@/store/themeStore";
+
 const ParticlesDemo = () => {
-  const theme = null;
+  const theme = useThemeStore((state) => state.theme);
 
   return (
     <div className="absolute inset-0 min-h-screen">
@@ -9,7 +11,7 @@ const ParticlesDemo = () => {
         className="absolute inset-0"
         quantity={100}
         ease={80}
-        color={theme === "dark" ? "#fff" : "#000"}
+        color={theme === "DARK" ? "#fff" : "#000"}
         refresh
       />
     </div>

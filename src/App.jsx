@@ -1,8 +1,12 @@
 import React from "react";
-import ParticlesDemo from "@/components/custom/ParticleDemo";
+import { ParticlesDemo } from "./components/custom";
 
 const App = () => {
-  return <ParticlesDemo />;
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center">
+      <ParticlesDemo />
+    </div>
+  );
 };
 
 export default App;
