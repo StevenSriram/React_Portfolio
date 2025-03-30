@@ -1,12 +1,11 @@
-import { lazy } from "react";
+import Header from "./Header";
 
-const Header = lazy(() => import("./Header"));
-const About = lazy(() => import("./About"));
+import About from "./About";
+import Skills from "./Skills";
 
-const Skills = lazy(() => import("./Skills"));
-const Experience = lazy(() => import("./Experience"));
+import Experience from "./Experience";
+import Projects from "./Projects";
 
-const Projects = lazy(() => import("./Projects"));
-const Footer = lazy(() => import("./Footer"));
+import Footer from "./Footer";
 
 export { Header, About, Skills, Experience, Projects, Footer };

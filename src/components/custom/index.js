@@ -1,6 +1,4 @@
-import { lazy } from "react";
-
-const ParticlesDemo = lazy(() => import("./ParticleDemo"));
-const DockDemo = lazy(() => import("./DockDemo"));
+import ParticlesDemo from "./ParticleDemo";
+import DockDemo from "./DockDemo";
 
 export { ParticlesDemo, DockDemo };

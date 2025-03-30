@@ -15,7 +15,7 @@ const ProjectCard = ({ project }) => {
         className={`absolute inset-0 bg-opacity-60 backdrop-blur flex flex-col justify-center items-center p-4 opacity-0 hover:opacity-100 transition-opacity duration-300 ${
           theme === "dark"
             ? "bg-gradient-to-r from-gray-900 via-black to-gray-800"
-            : "bg-gradient-to-r from-white via-slate-50 to-slate-100"
+            : "bg-gradient-to-r from-gray-200 via-white to-gray-200"
         }`}
       >
         <h3

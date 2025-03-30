@@ -157,7 +157,7 @@ const projects = [
   },
 ];
 
-const ProjectsSection = () => {
+const Projects = () => {
   return (
     <section className="w-full max-w-6xl">
       <div className="container mx-auto px-4">
@@ -187,4 +187,4 @@ const ProjectsSection = () => {
   );
 };
 
-export default ProjectsSection;
+export default Projects;
