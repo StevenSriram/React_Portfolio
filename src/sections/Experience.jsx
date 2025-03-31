@@ -38,7 +38,7 @@ const Experience = () => {
       title: "Freelance Web Developer",
       company: "Self-employed",
       location: "Remote",
-      duration: "2020 - 2024",
+      duration: "2020 - 2025",
       description:
         "Developed custom web solutions independently, specializing in responsive and dynamic websites built from scratch.",
       icon: <CodeIcon className="w-6 h-6" />,

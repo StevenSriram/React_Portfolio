@@ -3,12 +3,12 @@ import { Globe, Github } from "lucide-react";
 
 import ProjectCard from "./ProjectCard";
 
-import auth from "../assets/auth.jpg";
-import ecommerce from "../assets/ecommerce.jpg";
-import admin from "../assets/admin.jpg";
-import chat from "../assets/chat.jpg";
-import gui from "../assets/gui.jpg";
-import logistics from "../assets/logistics.jpg";
+import auth from "../assets/auth.webp";
+import ecommerce from "../assets/ecommerce.webp";
+import admin from "../assets/admin.webp";
+import chat from "../assets/chat.webp";
+import gui from "../assets/gui.webp";
+import logistics from "../assets/logistics.webp";
 
 const projects = [
   {

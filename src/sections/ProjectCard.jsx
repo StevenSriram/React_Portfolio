@@ -39,7 +39,11 @@ const ProjectCard = ({ project }) => {
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-gray-200 transition-colors"
+              className={`${
+                theme === "dark"
+                  ? "text-white hover:text-gray-200"
+                  : "text-gray-900 hover:text-gray-600"
+              }  transition-colors text-2xl`}
             >
               {link.icon}
             </a>
